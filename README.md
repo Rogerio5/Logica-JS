@@ -1,46 +1,74 @@
 # Logica-JS
 
-<!DOCTYPE html>
-<html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  <title>Desafios de Lógica</title>
-</head>
+
 <body>
+  <h1>Desafios de Lógica — Interativos 💡</h1>
+
+  <div class="desafio">
+    <p><strong>Desafio 1:</strong> Qual é o dia da semana?</p>
+    <button onclick="verificarDiaDaSemana()">Responder</button>
+  </div>
+
+  <div class="desafio">
+    <p><strong>Desafio 2:</strong> Digite um número positivo ou negativo.</p>
+    <button onclick="verificarNumero()">Responder</button>
+  </div>
+
+  <div class="desafio">
+    <p><strong>Desafio 3:</strong> Digite sua pontuação no jogo.</p>
+    <button onclick="verificarPontuacao()">Responder</button>
+  </div>
+
+  <div class="desafio">
+    <p><strong>Desafio 4:</strong> Seu saldo será mostrado com valor fixo.</p>
+    <button onclick="mostrarSaldo()">Mostrar saldo</button>
+  </div>
+
+  <div class="desafio">
+    <p><strong>Desafio 5:</strong> Qual é o seu nome?</p>
+    <button onclick="boasVindas()">Responder</button>
+  </div>
+
   <script>
-    // 1️⃣ Dia da semana
-    let diaDaSemana = prompt('Qual é o dia da semana?');
-    if (diaDaSemana === 'Sábado' || diaDaSemana === 'Domingo') {
-      alert('Bom fim de semana!');
-    } else {
-      alert('Boa semana!');
+    function verificarDiaDaSemana() {
+      let dia = prompt('Qual é o dia da semana?');
+      if (dia === 'Sábado' || dia === 'Domingo') {
+        alert('Bom fim de semana!');
+      } else {
+        alert('Boa semana!');
+      }
     }
 
-    // 2️⃣ Número positivo ou negativo
-    let numero = Number(prompt('Digite um número positivo ou negativo:'));
-    if (numero > 0) {
-      alert('Número positivo!');
-    } else if (numero < 0) {
-      alert('Número negativo!');
-    } else {
-      alert('Zero não é positivo nem negativo!');
+    function verificarNumero() {
+      let numero = Number(prompt('Digite um número positivo ou negativo:'));
+      if (numero > 0) {
+        alert('Número positivo!');
+      } else if (numero < 0) {
+        alert('Número negativo!');
+      } else {
+        alert('Zero não é positivo nem negativo!');
+      }
     }
 
-    // 3️⃣ Sistema de pontuação
-    let pontuacao = Number(prompt('Digite sua pontuação no jogo:'));
-    if (pontuacao >= 100) {
-      console.log('Parabéns, você venceu!');
-    } else {
-      console.log('Tente novamente para ganhar.');
+    function verificarPontuacao() {
+      let pontuacao = Number(prompt('Digite sua pontuação no jogo:'));
+      if (pontuacao >= 100) {
+        alert('Parabéns, você venceu!');
+      } else {
+        alert('Tente novamente para ganhar.');
+      }
     }
 
-    // 4️⃣ Mensagem com saldo
-    let saldoConta = 500; // valor fixo para teste
-    alert(`Seu saldo é de R$${saldoConta}.`);
+    function mostrarSaldo() {
+      let saldo = 500; // Valor fixo
+      alert(`Seu saldo é de R$${saldo}.`);
+    }
 
-    // 5️⃣ Nome do usuário
-    let nome = prompt('Qual o seu nome?');
-    alert(`Boas-vindas, ${nome}!`);
+    function boasVindas() {
+      let nome = prompt('Qual é o seu nome?');
+      alert(`Boas-vindas, ${nome}!`);
+    }
   </script>
 </body>
 </html>
+
