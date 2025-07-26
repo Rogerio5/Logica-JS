@@ -2,46 +2,68 @@
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
-  <title>Desafios de Lógica de Programação</title>
+  <title>Curso de Lógica de Programação — Desafios</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github-dark.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+  <script>hljs.highlightAll();</script>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background-color: #f5f7fa;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(145deg, #ecf0f1, #dfe6e9);
       padding: 30px;
+      line-height: 1.6;
+      color: #2c3e50;
     }
+
     h1, h2 {
       color: #2c3e50;
     }
-    p {
-      font-size: 16px;
-    }
+
     .desafio {
-      margin-bottom: 40px;
+      background-color: rgba(255, 255, 255, 0.35);
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+      margin-bottom: 30px;
+      backdrop-filter: blur(12px);
     }
+
     .enunciado {
-      background-color: #f0f8ff;
-      border-left: 4px solid #2980b9;
-      padding: 15px;
-      margin-bottom: 10px;
-      border-radius: 5px;
+      background-color: rgba(52, 152, 219, 0.1);
+      border-left: 5px solid #3498db;
+      padding: 10px 15px;
+      border-radius: 8px;
+      margin-bottom: 15px;
+      font-weight: 500;
     }
-    pre {
-      background-color: #ffffff;
-      border-left: 4px solid #3498db;
-      padding: 15px;
-      border-radius: 5px;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.08);
-      white-space: pre-wrap;
-    }
+
     .resposta {
-      background-color: #e9fbee;
-      border-left: 4px solid #27ae60;
-      padding: 10px;
-      margin-top: 10px;
-      border-radius: 5px;
+      background-color: rgba(39, 174, 96, 0.1);
+      border-left: 5px solid #27ae60;
+      padding: 10px 15px;
+      border-radius: 8px;
+      margin-top: 15px;
+      font-weight: 500;
+    }
+
+    pre code {
+      display: block;
+      padding: 16px;
+      background-color: #2d2d2d;
+      color: #f8f8f2;
+      border-radius: 8px;
+      overflow-x: auto;
+      line-height: 1.5;
+      font-family: Consolas, monospace;
     }
   </style>
 </head>
+<body>
+  <h1>Resolução dos Desafios do Curso de Lógica de Programação 💡</h1>
+  <!-- seus desafios vão aqui -->
+</body>
+</html>
+
 <body>
   <h1>Resolução dos Desafios do Curso de Lógica de Programação 💡</h1>
 
