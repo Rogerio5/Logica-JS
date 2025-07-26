@@ -1,3 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Desafios de Lógica de Programação</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f7fa;
+      padding: 30px;
+    }
+    h1, h2 {
+      color: #2c3e50;
+    }
+    p {
+      font-size: 16px;
+    }
+    .desafio {
+      margin-bottom: 40px;
+    }
+    .enunciado {
+      background-color: #f0f8ff;
+      border-left: 4px solid #2980b9;
+      padding: 15px;
+      margin-bottom: 10px;
+      border-radius: 5px;
+    }
+    pre {
+      background-color: #ffffff;
+      border-left: 4px solid #3498db;
+      padding: 15px;
+      border-radius: 5px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+      white-space: pre-wrap;
+    }
+    .resposta {
+      background-color: #e9fbee;
+      border-left: 4px solid #27ae60;
+      padding: 10px;
+      margin-top: 10px;
+      border-radius: 5px;
+    }
+  </style>
+</head>
 # <body>
   <h1>Resolução dos Desafios do Curso de Lógica de Programação 💡</h1>
 
