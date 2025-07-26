@@ -1,74 +1,45 @@
 # Logica-JS
 
+Resolução dos desafios do curso de lógica de programação
+Praticar a lógica de programação, incluindo conceitos como variáveis, condicionais (if-else), loops (while) e interações com o usuário (alert, prompt), é essencial para sua carreira de desenvolvimento de software. Esses fundamentos fornecem a base para resolver problemas de forma estruturada, tomar decisões no código, criar iterações controladas e interagir eficazmente com os usuários.
 
-<body>
-  <h1>Desafios de Lógica — Interativos 💡</h1>
+Compreender esses conceitos não apenas facilita o aprendizado de novas linguagens e tecnologias, mas também capacita você a criar soluções inovadoras, depurar eficientemente e manter a qualidade ao longo do ciclo de vida do software. Portanto, investir tempo nesses princípios desde cedo é fundamental para construir uma base sólida e bem-sucedida no campo da programação.
 
-  <div class="desafio">
-    <p><strong>Desafio 1:</strong> Qual é o dia da semana?</p>
-    <button onclick="verificarDiaDaSemana()">Responder</button>
-  </div>
+Desafios - Respostas
+1 - Pergunte ao usuário qual é o dia da semana. Se a resposta for "Sábado" ou "Domingo", mostre "Bom fim de semana!". Caso contrário, mostre "Boa semana!".
+diaDaSemana = prompt('Qual é o dia da semana?');
+if (diaDaSemana == 'Sábado') {
+    alert('Bom fim de semana!');
+} else if (diaDaSemana == 'Domingo') {
+    alert('Bom fim de semana!');
+} else {
+    alert('Boa semana!');
+}
 
-  <div class="desafio">
-    <p><strong>Desafio 2:</strong> Digite um número positivo ou negativo.</p>
-    <button onclick="verificarNumero()">Responder</button>
-  </div>
+2 - Verifique se um número digitado pelo usuário é positivo ou negativo. Mostre um alerta informando.
+numero = prompt('Digite um positivo ou negativo');
+if (numero > 0) {
+    alert('Número positivo!');
+} else {
+    alert('Número negativo!');
+}
 
-  <div class="desafio">
-    <p><strong>Desafio 3:</strong> Digite sua pontuação no jogo.</p>
-    <button onclick="verificarPontuacao()">Responder</button>
-  </div>
+3 - Crie um sistema de pontuação para um jogo. Se a pontuação for maior ou igual a 100, mostre "Parabéns, você venceu!" no console do navegador. Caso contrário, mostre "Tente novamente para ganhar.".
+pontuacao = 105;
+if (pontuacao >= 100) {
+    console.log('Parabéns, você venceu!');
+} else {
+    console.log('Tente novamente para ganhar.');
+}
 
-  <div class="desafio">
-    <p><strong>Desafio 4:</strong> Seu saldo será mostrado com valor fixo.</p>
-    <button onclick="mostrarSaldo()">Mostrar saldo</button>
-  </div>
+4 - Crie uma mensagem que informa o usuário sobre o saldo da conta, usando uma template string para incluir o valor do saldo.
+let saldoConta = 500; // Exemplo de saldo
+alert(`Seu saldo é de R$${saldoConta}.`);
 
-  <div class="desafio">
-    <p><strong>Desafio 5:</strong> Qual é o seu nome?</p>
-    <button onclick="boasVindas()">Responder</button>
-  </div>
+5 - Peça ao usuário para inserir seu nome usando prompt. Em seguida, mostre um alerta de boas-vindas usando esse nome.
+let nome = prompt('Qual o seu nome?');
+alert(`Boas vindas ${nome}`);
 
-  <script>
-    function verificarDiaDaSemana() {
-      let dia = prompt('Qual é o dia da semana?');
-      if (dia === 'Sábado' || dia === 'Domingo') {
-        alert('Bom fim de semana!');
-      } else {
-        alert('Boa semana!');
-      }
-    }
 
-    function verificarNumero() {
-      let numero = Number(prompt('Digite um número positivo ou negativo:'));
-      if (numero > 0) {
-        alert('Número positivo!');
-      } else if (numero < 0) {
-        alert('Número negativo!');
-      } else {
-        alert('Zero não é positivo nem negativo!');
-      }
-    }
-
-    function verificarPontuacao() {
-      let pontuacao = Number(prompt('Digite sua pontuação no jogo:'));
-      if (pontuacao >= 100) {
-        alert('Parabéns, você venceu!');
-      } else {
-        alert('Tente novamente para ganhar.');
-      }
-    }
-
-    function mostrarSaldo() {
-      let saldo = 500; // Valor fixo
-      alert(`Seu saldo é de R$${saldo}.`);
-    }
-
-    function boasVindas() {
-      let nome = prompt('Qual é o seu nome?');
-      alert(`Boas-vindas, ${nome}!`);
-    }
-  </script>
-</body>
-</html>
+  
 
