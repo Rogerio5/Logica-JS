@@ -1,13 +1,3 @@
-.resposta {
-  background-color: rgba(255, 255, 255, 0.25);  /* fundo translúcido */
-  border-left: 5px solid #27ae60;
-  padding: 10px 15px;
-  border-radius: 12px;
-  margin-top: 15px;
-  backdrop-filter: blur(8px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-  color: #2c3e50;
-}
 # <body>
   <h1>Resolução dos Desafios do Curso de Lógica de Programação 💡</h1>
 
